@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var myobj={"name":"Prakash","Age":23,"Place":"India"};//JS Object
+        var Obj=JSON.Stringify(myobj);//object
+        console.log('type of obj is ' +typeof Obj);
+        document.write(Obj)
+        var myobj1=JSON.parse(Obj);
+        console.log('type of myobj1 is '+typeof myobj1);
+        console.log(myobj1);
+    </script>
+    {"Name":"Prakash","Place":"India","Age":23};
+</head>
+<body>
+    
+</body>
+</html>
